@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>Yi音乐</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="./jquery-1.8.3.js"></script>
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="head">
+      <ul id="ulStyle">
+       
+
+
+    </div>
+    <div id="contain">
+      <div id="main-section">
+        <div id="main-section-1">
+        
+          <div id="articleContent">
+            <div id="typeA" class="animateBorder">
+              <div id="titleA" class="titleType">♥i乐</div>
+              <ul class="ulSection">
+                <li class="liSection">
+                  <span class="musicTitle">1.不知晓</span>
+                  <div id="favMusic" class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">2.离别开出花</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">3.时光的摇晃</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">4.还要找你们当爸妈</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">5.听我说谢谢你</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">6.少年</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">7.星辰大海</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">8.跳楼机</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">9.你笑起来真好看</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">10.冰雪奇缘</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+              </ul>
+            </div>
+
+            <div id="typeB" class="animateBorder">
+              <div id="titleB" class="titleType">经典</div>
+              <ul class="ulSection">
+                <li class="liSection">
+                  <span class="musicTitle">1.星月神话</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">2.爱如潮水</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">3.边界</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">4.沧海一声笑</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">5.吴哥窟</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">6.黄昏</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">7.信仰</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">8.阳光总在风雨后</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">9.小雪</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">10.一千零一夜</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">11.笨小孩</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+               <li class="liSection">
+                  <span class="musicTitle">12.记事本</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+               <li class="liSection">
+                  <span class="musicTitle">13.盛夏的果实</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+               <li class="liSection">
+                  <span class="musicTitle">14.孟婆的碗</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+               <li class="liSection">
+                  <span class="musicTitle">15.爱</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+               <li class="liSection">
+                  <span class="musicTitle">16.大鱼</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+              </ul>
+            </div>
+
+            <div id="typeC" class="animateBorder">
+              <div id="titleC" class="titleType">音乐</div>
+              <ul class="ulSection">
+                <li class="liSection">
+                  <span class="musicTitle">1.后来</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">2.最浪漫的事</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">3.千纸鹤</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">4.邓紫棋-唯一</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">5.一生所爱</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">6.春泥</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">7.过火</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">8.十年</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">9.千年之恋</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">10.爱情转移</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">11.下沙</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">12.孤勇者</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">13.海浪</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">14.忘情水</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">15.你的答案</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+                <li class="liSection">
+                  <span class="musicTitle">16.天使的翅膀</span>
+                  <div class="musicStatus" onclick="change(this)"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="main-section-2">
+          <div id="lyricTitle" class="title-style-1"></div>
+          <div id="lyricDisplay">
+            <div id="lyricTip"></div>
+            <ul id="lyricUl"></ul>
+          </div>
+          <div class="progressDiv" id="progressDiv">
+            <div id="progress">
+              <div id="insTime"></div>
+              <div class="progress" id="totalProgress"></div>
+              <div class="progress" id="progressBar"></div>
+              <div class="progress" id="progressAni"></div>
+            </div>
+
+            <div id="menu">
+              <div id="menu_1">
+                <div class="buttons" id="pre"></div>
+                <div class="buttons start" id="startStop"></div>
+                <div class="buttons" id="next"></div>
+                <div class="buttons_lbxh" id="playType"></div>
+              </div>
+              <div id="menu_2">
+                <div class="times" id="rollTime">00:00</div>
+                <div class="times">/</div>
+                <div class="times" id="totalTime">00:00</div>
+                <div id="voicIcon"></div>
+                <div id="voice">
+                  <input id="volumeChange" type="range" min="1" max="10" value="5" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+
+
+
+
+    <script>
+      let sectionD1 = document.getElementById("main-section-1");
+      let lyricTip = document.getElementById("lyricTip");
+      let lyricDisplay = document.getElementById("lyricDisplay");
+      let lyricTitle = document.getElementById("lyricTitle");
+      let favMusic = document.getElementById("favMusic");
+      let progressDiv = document.getElementById("progressDiv");
+      let lyricUl = document.getElementById("lyricUl");
+      let rollTDiv = document.getElementById("rollTime"); // 实时播放时间Div
+      let totalTDiv = document.getElementById("totalTime"); // 总时长时间Div
+      let progressBar = document.getElementById("progressBar"); // 歌曲实时进度条
+      let progressAni = document.getElementById("progressAni");
+      let totalProgress = document.getElementById("totalProgress"); // 歌曲总进度条
+      let playType = document.getElementById("playType"); // 播放方式
+
+      let isPlay = false,
+        lyricF,
+        lines;
+      let playTypeNum = 1,
+        songID,
+        typeNum,
+        nowMusic; //控制列表和单曲循环
+      let patternType1 = /\[(\d{2}:\d{2}).\d{2}\](.+)/,
+        patternType2 = /\[(\d{2}:\d{2}).\d{2}\](.+)/g;
+      let linesFadeArr = [],
+        linesArr = [],
+        timeArr = [],
+        lyricArr = []; //歌词处理数字
+
+      //进度条宽度自动布局
+      totalProgress.style.width = progressDiv.clientWidth + "px";
+      window.addEventListener("resize", function () {
+        sectionD1.style.width = "600px";
+        totalProgress.style.width = progressDiv.clientWidth + "px";
+      });
+
+      let audio = new Audio();
+      audio.volume = 0.8;
+      change(favMusic);
+
+      function change(t) {
+        nowMusic = t;
+        linesFadeArr = [];
+        linesArr = [];
+        timeArr = [];
+        lyricArr = [];
+
+        let musicNum = document.querySelectorAll(".musicStatus");
+
+        typeNum = t.parentNode.parentNode.parentNode.children[1].getElementsByTagName("li").length;
+
+        for (i = 0; i < musicNum.length; i++) {
+          musicNum[i].style.backgroundImage = "url(./music/play.png)";
+        }
+
+        let context = t.parentNode.children[0].innerHTML.replace(/\n/g, "");
+        songID = context.replace(/\D/g, "");
+
+        let type = t.parentNode.parentNode.parentNode.id.substr(4, 4);
+        let musicSrc = "./music/music" + type + "/" + type + "_" + songID + ".mp3";
+
+        let lyricSrc = "./music/music" + type + "/" + type + "_" + songID + ".lrc";
+
+        audio.src = musicSrc;
+        lyricTitle.innerHTML = context.replace(songID, "").replace(".", "");
+        t.style.backgroundImage = "url(./music/pause.png)";
+        startStop.className = "buttons start";
+
+        //上一曲
+        pre.onclick = function () {
+          let currentMusicID = songID - 2;
+          if (currentMusicID < 0) {
+            currentMusicID = typeNum - 1;
+          }
+          change(t.parentNode.parentNode.children[currentMusicID].children[1]);
+        };
+
+        //下一曲
+        next.onclick = function () {
+          let currentMusicID = songID;
+          if (currentMusicID > typeNum - 1) {
+            currentMusicID = 0;
+          }
+          change(t.parentNode.parentNode.children[currentMusicID].children[1]);
+        };
+
+        //播放或暂停
+        startStop.onclick = function () {
+          if (audio.paused) {
+            // 如果当前音乐是暂停状态，点击按钮，则改为播放状态
+            startStop.className = "buttons start"; // 设置播放的class
+            audio.play();
+            nowMusic.parentNode.parentNode.children[songID - 1].children[1].style.backgroundImage = "url(./music/pause.png)";
+          } else {
+            // 如果当前音乐是播放状态，点击按钮，则改为暂停状态
+            startStop.className = "buttons stop"; // 设置暂停的class
+            audio.pause();
+            nowMusic.parentNode.parentNode.children[songID - 1].children[1].style.backgroundImage = "url(./music/play.png)";
+          }
+        };
+
+        lyricF = fetchItem(lyricSrc);
+        if (lyricF == void 0) {
+          lyricF = "抱歉,该歌曲暂未找到歌词";
+          lyricTip.innerHTML = "抱歉,该歌曲暂未找到歌词";
+          lyricTip.style.color = "rgb(9, 226, 161)";
+        } else {
+          lyricTip.innerHTML = "";
+        }
+        lines = lyricF.split("\n");
+        lyricUl.style.top = 0 + "px";
+
+        //去掉空白行
+        for (var i = 0; i < lines.length; i++) {
+          if (lines[i].trim() !== "") {
+            linesFadeArr.push(lines[i].trim());
+          }
+        }
+
+        //去掉不含时间行或只包含时间行
+        for (var i = 0; i < linesFadeArr.length; i++) {
+          if (!patternType1.test(linesFadeArr[i]) || (patternType1.test(linesFadeArr[i]) && linesFadeArr[i].length == 10)) {
+            linesFadeArr.splice(i, 1);
+          }
+        }
+
+        //歌词格式化后最终歌词数组
+        for (var i = 0; i < linesFadeArr.length; i++) {
+          if (patternType1.test(linesFadeArr[i])) {
+            linesArr.push(linesFadeArr[i]);
+          }
+        }
+
+        //加载歌词
+        var lyricText = linesArr.join("\n");
+        let tmp = patternType2.exec(lyricText);
+
+        while (tmp) {
+          timeArr.push(tmp[1]);
+          lyricArr.push(tmp[2]);
+          tmp = patternType2.exec(lyricText);
+        }
+
+        let str = "";
+
+        lyricArr.forEach((item, index) => {
+          str += `<li id="lyricLI" class="${index === 0 ? "active" : ""}" >${item}</li>`;
+        });
+
+        lyricUl.innerHTML = str;
+
+        if (isPlay) {
+          audio.play();
+        } else {
+          audio.pause();
+          isPlay = true;
+          t.style.backgroundImage = "url(./music/play.png)";
+          startStop.className = "buttons stop";
+        }
+      }
+
+      //播放状态处理
+      audio.addEventListener("timeupdate", function () {
+        var totalTime = audio.duration;
+        var currentTime = audio.currentTime;
+        if (!isNaN(totalTime)) {
+          rollTDiv.textContent = getFormatterDate(currentTime);
+          totalTDiv.textContent = getFormatterDate(totalTime);
+          var width = Math.floor((currentTime / totalTime) * progressDiv.clientWidth);
+          progressBar.setAttribute("style", "width:" + width + "px");
+          progressAni.setAttribute("style", "left:" + (width - 2) + "px");
+          //当前歌曲播放完毕处理
+          if (currentTime == totalTime) {
+            let musicStatus = document.querySelectorAll(".musicStatus");
+
+            for (i = 0; i < musicStatus.length; i++) {
+              musicStatus[i].style.backgroundImage = "url(./music/play.png)";
+            }
+            rollTDiv.textContent = "00:00";
+            progressBar.setAttribute("style", "width:" + 0 + "px");
+            progressAni.setAttribute("style", "left:-2px");
+            lyricUl.style.top = 0 + "px";
+            startStop.className = "buttons stop";
+            if (lyricUl.children[0] != void 0) {
+              lyricUl.children[0].className = "active";
+            }
+            if (playTypeNum == 1) {
+              let currentMusicID = songID;
+              if (currentMusicID > typeNum - 1) {
+                currentMusicID = 0;
+              }
+              change(nowMusic.parentNode.parentNode.children[currentMusicID].children[1]);
+            } else if (playTypeNum == 2) {
+              let currentMusicID = songID - 1;
+              if (currentMusicID > typeNum - 1) {
+                currentMusicID = 0;
+              }
+              change(nowMusic.parentNode.parentNode.children[currentMusicID].children[1]);
+            }
+          }
+        }
+
+        //歌词渲染
+        const minute = parseInt(currentTime / 60);
+        const second = parseInt(currentTime % 60);
+        const timeStr = (minute < 10 ? "0" + minute : minute) + ":" + (second < 10 ? "0" + second : second);
+
+        const index = timeArr.findIndex((item) => item === timeStr);
+
+        if (index !== -1) {
+          //从第7句开始向上移动歌词位置
+          if (index > 6) {
+            lyricUl.style.top = -(index - 5) * 20 + "px";
+            lIndex = index;
+          }
+
+          [...lyricUl.children].forEach((item) => (item.className = ""));
+          lyricUl.children[index].className = "active";
+        }
+      });
+
+      //监听进度条点击事件
+      totalProgress.addEventListener("click", function (event) {
+        updateTime(event.offsetX);
+      });
+      progressBar.addEventListener("click", function (event) {
+        updateTime(event.offsetX);
+      });
+
+      function updateTime(x) {
+        var totalTime = audio.duration;
+        var currentTime = audio.currentTime;
+        let actualWidt = progressDiv.clientWidth;
+        var selectProgress = x / actualWidt;
+
+        audio.currentTime = totalTime * selectProgress;
+
+        var LWidth = Math.floor(selectProgress * actualWidt);
+        progressBar.setAttribute("style", "width:" + LWidth + "px");
+        audio.play();
+      }
+
+      //ajax获取文本对象
+      function fetchItem(url) {
+        var item;
+        $.ajax({
+          type: "get",
+          url,
+          async: false,
+          success: function (data) {
+            item = data;
+          },
+        });
+        return item;
+      }
+
+      //时间格式化
+      function getFormatterDate(time) {
+        var m = parseInt(time / 60); // 分
+        var s = parseInt(time % 60); // 秒
+        // 补零
+        m = m > 9 ? m : "0" + m;
+        s = s > 9 ? s : "0" + s;
+        return m + ":" + s;
+      }
+
+      //手动调节音量
+      let volumeChange = document.getElementById("volumeChange");
+      volumeChange.value = audio.volume * 10;
+      volumeChange.onchange = function () {
+        var volumeVal = volumeChange.value * 0.1;
+        audio.volume = volumeVal;
+      };
+      let voicIcon = document.getElementById("voicIcon");
+      let flag = true;
+      volumeChange.style.display = "none";
+      voicIcon.onmouseover = function () {
+        if (flag) {
+          volumeChange.style.display = "";
+          flag = false;
+        }
+      };
+      voicIcon.onmouseout = function () {
+        setTimeout(function () {
+          volumeChange.style.display = "none";
+          flag = true;
+        }, 3000);
+      };
+
+      //鼠标放在进度条显示时间
+      var insTime = $("#insTime");
+      function showTime(x) {
+        var totalTime = audio.duration;
+        let actualWidt = progressDiv.clientWidth;
+        let nowTime = getFormatterDate((x / actualWidt) * totalTime);
+        if (nowTime == "0NaN:0NaN") {
+          insTime.text("");
+        } else {
+          insTime.text(nowTime);
+          insTime.css({ left: x - 20 }).fadeIn(0);
+        }
+      }
+
+      totalProgress.onmouseover = function (event) {
+        showTime(event.offsetX);
+      };
+      progressBar.onmouseover = function (event) {
+        showTime(event.offsetX);
+      };
+      totalProgress.onmouseout = function (event) {
+        insTime.text("");
+      };
+      progressBar.onmouseout = function (event) {
+        insTime.text("");
+      };
+
+      //播放方式按钮点击事件
+      playType.onclick = function () {
+        if (playTypeNum == 1) {
+          // 当前播放为列表循环，点击切换播放方式时，改为单曲循环
+          playTypeNum = 2;
+          playType.className = "buttons_dqxh"; // 设置单曲循环的class
+        } else {
+          // 当前播放为单曲循环，点击切换播放方式时，改为列表循环
+          playTypeNum = 1;
+          playType.className = "buttons_lbxh"; // 设置列表循环的class
+        }
+      };
+    </script>
+  </body>
+</html>
